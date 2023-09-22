@@ -16,7 +16,7 @@ namespace TP_LW_3_c1_n72
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ExchangeRateForm());
+            Application.Run(new StartForm());
         }
     }
 }
