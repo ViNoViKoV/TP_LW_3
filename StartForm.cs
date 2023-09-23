@@ -22,5 +22,11 @@ namespace TP_LW_3_c1_n72
             Form form = new ExchangeRateForm();
             form.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form form = new TemperatureForm();
+            form.Show();
+        }
     }
 }
