@@ -56,7 +56,7 @@ namespace TP_LW_3_c1_n72
             // Добавление данных
             for (int i = 0; i < table.Rows.Count; i++)
             {
-                // Данные находятся во втором и третьем столбцах таблицы
+                // Данные находятся во втором, третьем и четвертом столбцах таблицы
                 double x = i; // Простое приращение для координаты X для равномерности графика
                 double y1 = Convert.ToDouble(table.Rows[i][1]);
                 double y2 = Convert.ToDouble(table.Rows[i][2]);
